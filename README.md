@@ -33,7 +33,7 @@ For the scope of this exercise we're are only going to use the 'Hardship Index' 
 The Foursquare data was obtained via API, in this case the data requested was the venues in a radius of 500m around a given community, the information returned is the venue name, the venue location (latitude, longitude) and the venue category.
 
 
-# HOW TO?
+# How to?
 ---
 First the Hardship Index was transformed from a continuous variable to a categorical variable consisting in six categories: very low, low, medium low, medium high, high and very high.
 
@@ -43,7 +43,7 @@ A chi-squared test was used for the analysis of the distribution of top 3 venue 
 
 A k-nearest neighbors model will be used to classifier will be trained to identify the Hardship Index category of a certain community based on its venues, also a Random Forest Classifier will be trained with the same objective.
 
-# THE RESULTS
+# The results
 ---
 We can se the different values of Hardship Index in the Chicago Neighborhoods in the next map:
 ![](img/communities_h_i.png)
@@ -53,7 +53,7 @@ The data showed that the distribution of the venues was not significantly differ
 
 Also the f1-scores for the k-nearest neighbors classifier and the random forest were only 0.20, so both models performed poorly.
 
-# CONCLUSIONS
+# Conclusions
 ---
 
 The Chicago communities are pretty similar in types of venues distribution so they are not a good predictor of the Hardship Index. Unfortunately this mean that (at least with the data presented here) there are no clear indications of which kind of venues can improve a community socioeconomic conditions, in the data obtained through the analysis we can verify that some buildings and spaces that we might think can improve community life such as parks are more represented in communities with high Hardship Index, indicating that the problem may lay elsewhere.
