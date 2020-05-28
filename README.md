@@ -72,3 +72,7 @@ Mexican Restaurants are the top venue at low Hardship Index locations, so if you
 If you're from Chicago I leave you here a map of mexican restaurants
 
 ![](img/mexican_r.png)
+
+
+#### You can see the code here:
+https://nbviewer.jupyter.org/github/emmiGon/Coursera_Capstone/blob/master/Coursera_Capstone.html
